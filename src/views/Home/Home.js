@@ -5,7 +5,7 @@ export default class Home extends Component {
     render() {
         const preHeader = 'Saloam'
         const postHeader = 'Funerals'
-        const subTitle = 'Where Family Matter'
+        const subTitle = 'Where Family Matters'
 
         return (
             <div className={'home'}>
