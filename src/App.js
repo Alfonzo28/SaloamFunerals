@@ -6,6 +6,7 @@ import About from './views/About/About'
 import Footnote from './views/Footnote/Footnote'
 import WhyUs from './views/WhyUs/WhyUs'
 import Contact  from './views/Contact/Contact'
+import Testimonies from './views/Testimonies/Testimonies'
 
 class App extends Component {
 
@@ -17,6 +18,7 @@ class App extends Component {
                     <Home/>
                     <About/>
                     <WhyUs/>
+                    <Testimonies/>
                     <Contact/>
                     <Footnote/>
                 </div>

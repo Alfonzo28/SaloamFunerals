@@ -2,19 +2,17 @@
 
 .testimonies {
     row-gap: 0.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;  
     background-color: $background-color;
-    position: relative;
-
-    .div {
-        color: $body-text-color;
-    }
 }
 
 .testimonies-header {
     font-size: 2.25rem;
     margin-top: 2rem;
-    color: #000000;
+    color: $primary-color;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -23,48 +21,30 @@
 
 .testimonies-container {
     display: flex;
-    flex-direction: column;
     row-gap: 1.5rem;
     padding: 6% 2%;
+    column-gap: 2.5rem;
 }
 
-.ellipse-container {
-    position: absolute;
-}
-
-.ellipse {
-    width: 12.5rem;
-    height: 12.5rem;
-}
-
-@media only screen and (max-width: 870px) {
-    .ellipse {
-        max-width: 0rem;
-        max-height: 0rem;
-    }   
-}
-
-.dots {
-    width: 12.5rem;
-    height: 12.5rem;
-}
-
-@media only screen and (max-width: 709px) {
-    .dots {
-        width: 0rem;
-        height: 0rem;
-    }
-}
-
-.ellipse-dot-quote-container {
-    flex-direction: row;
-}
-
-.ellipse-dot-float-right {
+.testimonies-header-container {
     display: flex;
-    justify-content: flex-end;
 }
 
-.ellipse-dot-quote-container-end {
-    flex-direction: column;
+.quote {
+    align-self: flex-start;
+    justify-content: flex-start;
+}
+
+.traverse-buttons-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.traverse-left-button {
+
+}
+
+.traverse-right-button {
+    
 }
