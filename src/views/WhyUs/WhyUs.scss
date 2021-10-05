@@ -1,0 +1,39 @@
+@import '../../constants/colours.scss';
+
+.why-us-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: linear-gradient(to bottom, #F8F8F8 80%, transparent 20%);;
+    row-gap: 4.625rem;
+}
+
+.why-us-header-container {    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 4% 12%;
+    row-gap: 1rem;
+}
+
+.why-us-header {
+    font-weight: 600;
+    font-size: 2.25rem;
+    color: $primary-color;
+}
+
+.why-us-body {
+    font-weight: 500;
+    font-size: 1rem;    
+    text-align: center;
+}
+
+.why-us-cards-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    column-gap: 3.75rem;
+}

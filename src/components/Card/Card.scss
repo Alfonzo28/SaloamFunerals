@@ -1,0 +1,32 @@
+@import '../../constants/colours.scss';
+
+.card {
+    width: 20.1875rem;
+    height: 21.0625rem;
+    box-shadow: -0.0625rem 0.8125rem 1.25rem #F0F2F4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: $card-background-color;
+}
+
+.card-header {
+    font-weight: 800;
+    font-size: 1rem;
+    color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.3125rem;
+}
+
+.card-body {
+    font-weight: 500;
+    font-size: 1rem;
+    margin-top: 1rem;
+    color: $body-text-color;
+    padding: 0% 11%;
+    text-align: center;
+}

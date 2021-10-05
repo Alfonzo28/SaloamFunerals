@@ -1,0 +1,70 @@
+@import '../../constants/colours.scss';
+
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    row-gap: 0.25rem;
+    flex-direction: column;
+
+    .div {
+        color: $body-text-color;
+    }
+}
+
+.about-header-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 4% 12%;
+    background-color: $background-secondary-color;
+}
+
+.about-header {
+    font-weight: 600;
+    font-size: 2.25rem;
+    color: $primary-color;
+}
+
+.about-body {
+    font-weight: 500;
+    font-size: 1rem;    
+    text-align: center;
+}
+
+.about-image-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.about-text-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 1.75rem;
+    background: #FFFFFF;
+    box-shadow: -0.0625rem 0.8125rem 1.25rem #F0F2F4;
+}
+
+.about-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.read-more-button {
+    width: 7rem;
+    height: 2.25rem;
+    border: 0.0625rem solid $primary-color;
+    font-weight: 500;
+    font-size: 0.75rem;
+    color: $primary-color;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

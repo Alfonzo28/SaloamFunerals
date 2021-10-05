@@ -1,0 +1,22 @@
+@import './constants//colours.scss';
+
+@font-face {
+    font-family: Avenir;
+    src: url("assets/fonts/Avenir/AvenirLTStd-Book.otf") format("opentype");
+}
+
+html, body, #root, .App {
+  display: flex;
+  flex: 1;
+  font-family: 'Avenir', 'Courier New', Courier, monospace;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+}
+
+.App-content {
+  flex-direction: column;
+  padding: 6% 10%;
+}

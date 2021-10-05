@@ -1,0 +1,86 @@
+@import '../../constants/colours.scss';
+
+.box {
+    max-width: 35.6875rem;
+    height: 14.125rem;
+    background: #FFFFFF;
+    box-shadow: 0rem 0.25rem 1.25rem rgba(0, 0, 0, 0.1);
+    border-radius: 4.375rem 0rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+.box-header-div {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+}
+
+.box-pre-header {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: $alternate-body-text-color;
+}
+
+.box-header-end {
+    font-size: 1.125rem;
+    color: $alternate-body-text-color;
+}
+
+.box-body {
+    font-size: 1.125rem;
+    color: $alternate-body-text-color;
+}
+
+.box-float-right {
+    margin-left:auto;
+}
+
+.box-image-container {
+    width: 8.125rem;
+    height: 8.1875rem;
+    position: absolute;
+    left: -10%;
+}
+
+.box-image {
+    border-radius: 40% 0rem;
+}
+
+@media only screen and (max-width: 870px) {
+    .box {
+        width: fit-content;
+        height: fit-content;
+        background: #FFFFFF;
+        box-shadow: 0rem 0.25rem 1.25rem rgba(0, 0, 0, 0.1);
+        border-radius: 20% 0rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        position: relative;
+    }
+    .box-image {
+        padding-bottom: 2rem;
+    }
+}
+
+.box-text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 4rem;
+    padding-left: 5rem;
+}
+
+.quote {
+    width: 2.375rem;
+    height: 2.375rem;
+    margin-left: 0.25rem;
+    margin-bottom: 1.5rem;
+}

@@ -1,0 +1,28 @@
+@import '../../constants/colours.scss';
+
+.footnote-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #F8F8F8;
+    row-gap: 1.5rem;
+    padding-top: 3rem;
+    padding-bottom: 2.0625rem;
+    padding-left: 15%;
+}
+
+.footnote-list-item {
+    font-size: 18px;
+    color: $body-text-color;
+    cursor: pointer;
+}
+
+.footnote-end {
+    display: flex;
+    font-size: 0.5625rem;
+    font-weight: 400;
+    color: $body-text-color;
+}
+
+.footnote-end-bold {
+    font-weight: 700;
+}
