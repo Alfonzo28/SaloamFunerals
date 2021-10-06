@@ -1,6 +1,6 @@
-export const HOME = 'Home';
-export const ABOUT_US = 'About Us';
-export const WHY_US = 'Why Us?';
-export const TESTIMONIES = 'Testimonies';
-export const GET_IN_TOUCH = 'Get In Touch';
+export const HOME = 'HOME';
+export const ABOUT_US = 'ABOUT US';
+export const WHY_US = 'WHY US?';
+export const TESTIMONIES = 'TESTIMONIES';
+export const GET_IN_TOUCH = 'GET IN TOUCH';
 export const SCROLL_ELEMENT = 'root';
