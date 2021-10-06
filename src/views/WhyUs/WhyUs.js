@@ -25,13 +25,13 @@ class WhyUs extends Component {
                 iconAlt: 'heart'
             },
             {
-                header: 'Family Owned',
+                header: 'Exellent Service',
                 body: 'Welcome Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt',
                 icon: Star,
                 iconAlt: 'start'
             },
             {
-                header: 'Family Owned',
+                header: 'Around the clock support',
                 body: 'Welcome Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt',
                 icon: Clock,
                 iconAlt: 'clock'
