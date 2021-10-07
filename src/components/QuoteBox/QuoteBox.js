@@ -11,14 +11,12 @@ export default class QuoteBox extends Component {
             <div className={boxClass}>
                 <div className={'box-image-container'}>
                     <img className={'box-image'} src={cardImage} alt={'testimony'}/>
-                </div>
-                <div className={'box-text-container'}>
                     <div className={'box-header-div'}>
                         <div className={'box-pre-header'}>{cardPreHeader}</div>
                         <div className={'box-header-end'}>{cardHeaderEnd}</div>
                     </div>
-                    <div className={'box-body'}>{cardBody}</div>
                 </div>
+                <div className={'box-body'}>{cardBody}</div>
             </div>
         )
     }

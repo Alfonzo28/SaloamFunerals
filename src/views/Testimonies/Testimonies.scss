@@ -6,7 +6,8 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;  
-    background-color: $background-color;
+    background-color: #F8F8F8;
+    padding: 0% 4%;
 }
 
 .testimonies-header {
@@ -30,21 +31,24 @@
     display: flex;
 }
 
-.quote {
-    align-self: flex-start;
-    justify-content: flex-start;
-}
-
-.traverse-buttons-container {
+.eRmJbc, .khvUfi {
+    background-color: $primary-color !important;
+    color: #FFFFFF !important;
+    width: 2.375rem !important;
+    height: 2.375rem !important;
+    min-width: 2.375rem !important;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    box-shadow: none !important;
 }
 
-.traverse-left-button {
-
+.jJKuoL {
+    background-color: $primary-color !important;
+    box-shadow: none !important;
 }
 
-.traverse-right-button {
-    
+.gQIqMI {
+    background-color: #C4C4C4 !important;
+    box-shadow: none !important;    
 }
