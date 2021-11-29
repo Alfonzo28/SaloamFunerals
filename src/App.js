@@ -7,7 +7,7 @@ import Footnote from './views/Footnote/Footnote'
 import WhyUs from './views/WhyUs/WhyUs'
 import Contact  from './views/Contact/Contact'
 import Testimonies from './views/Testimonies/Testimonies'
-
+import HelmetComponent from './components/Helmet/HelmetComponent'
 class App extends Component {
 
     render() {
@@ -22,6 +22,7 @@ class App extends Component {
                     <Contact/>
                     <Footnote/>
                 </div>
+                <HelmetComponent/>
             </div>
         )
     }
